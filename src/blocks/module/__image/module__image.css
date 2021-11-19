@@ -1,0 +1,12 @@
+@media screen and (max-width: 860px) {
+    .module__image {
+        padding-top: 50px;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .module__image {
+        display: none;
+    }
+}

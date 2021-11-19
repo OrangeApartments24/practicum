@@ -1,0 +1,15 @@
+.numbers-list__item {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+    .numbers-list__item {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}

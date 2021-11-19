@@ -1,0 +1,20 @@
+.prices__option {
+    border: 1px solid #EFA30E;
+    border-radius: 15px;
+    padding: 40px 35px 0;
+    box-sizing: border-box;
+    display: block;
+    align-self: start;
+    position: relative;
+    width: 100%;
+}
+
+.prices__option:last-of-type {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 860px) {
+    .prices__option {
+        margin-bottom: 15px;
+    }
+}

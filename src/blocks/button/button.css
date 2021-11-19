@@ -1,0 +1,53 @@
+.button {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #EFA30E;
+    position: relative;
+    padding: 0 30px;
+    cursor: pointer;
+    transition: opacity 0.5s;
+    box-sizing: border-box;
+}
+
+.button:hover {
+    opacity: .6;
+}
+
+.button::before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 54px;
+    top: -9px;
+    left: 0px;
+    background-image: url('../../images/button-bg.svg');
+    background-repeat: no-repeat;
+    transition: left 0.5s;
+}
+
+.button::after {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 54px;
+    top: -9px;
+    right: 0px;
+    background-image: url('../../images/button-bg.svg');
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    transition: right 0.5s;
+}
+
+.button:hover::before {
+    left: -10px;
+}
+
+.button:hover::after {
+    right: -10px;
+}

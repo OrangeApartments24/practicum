@@ -1,0 +1,16 @@
+.header__image {
+    max-width: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+    .header__image {
+        max-width: 75%;
+        align-self: flex-end;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .header__image {
+        max-width: 100%;
+    }
+}

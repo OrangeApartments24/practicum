@@ -1,0 +1,13 @@
+.prices__option-list {
+    padding: 20px 0 0;
+    list-style: none;
+}
+
+@media screen and (max-width: 960px) {
+    .prices__option-list {
+        width: 100%;
+        display: grid;
+        grid-gap: 15px 35px;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}

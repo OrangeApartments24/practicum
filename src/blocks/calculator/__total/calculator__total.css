@@ -1,0 +1,10 @@
+.calculator__total {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+}

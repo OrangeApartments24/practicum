@@ -1,0 +1,21 @@
+.methodology__item {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px 20px 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 150px;
+    cursor: pointer;
+    transition: border-color .3s;
+}
+
+.methodology__item:hover {
+    border-color: #EFA30E;
+}
+
+.methodology__item:hover .methodology__item-name {
+    color: #EFA30E;
+}

@@ -1,0 +1,5 @@
+.header__accent {
+    background-image: url('../../../images/heading-bg.png');
+    background-size: cover;
+    padding-bottom: 5px;
+}

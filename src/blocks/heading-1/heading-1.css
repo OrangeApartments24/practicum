@@ -1,0 +1,31 @@
+.heading-1 {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+    color: black;
+}
+
+@media screen and (max-width: 1024px) {
+    .heading-1 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .heading-1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .heading-1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+}

@@ -1,0 +1,10 @@
+.block__text {
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width: 860px) {
+    .block__text {
+        padding-bottom: 15px;
+    }
+    
+}

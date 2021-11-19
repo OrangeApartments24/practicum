@@ -1,0 +1,97 @@
+@import url('../vendor/normalize.css');
+@import url("https://use.typekit.net/qeo7gnq.css");
+
+@import url('../blocks/root/root.css');
+
+@import url('../blocks/heading-1/heading-1.css');
+@import url('../blocks/heading-1/_accent/heading-1_accent.css');
+@import url('../blocks/heading-2/heading-2.css');
+@import url('../blocks/heading-2/_accent/heading-2_accent.css');
+@import url('../blocks/paragraph/paragraph.css');
+@import url('../blocks/paragraph/_accent/paragraph_accent.css');
+@import url('../blocks/block/__image/block__image.css');
+
+@import url('../blocks/list/list.css');
+@import url('../blocks/list/__item/list__item.css');
+@import url('../blocks/button/button.css');
+
+@import url('../blocks/block/block.css');
+@import url('../blocks/block/__content/block__content.css');
+@import url('../blocks/block/__heading/block__heading.css');
+@import url('../blocks/block/__text/block__text.css');
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__content/header__content.css');
+@import url('../blocks/header/__image/header__image.css');
+@import url('../blocks/header/__button/header__button.css');
+@import url('../blocks/header/__accent/header__accent.css');
+
+@import url('../blocks/calculator/calculator.css');
+@import url('../blocks/calculator/__heading/calculator__heading.css');
+@import url('../blocks/calculator/__field/calculator__field.css');
+@import url('../blocks/calculator/__fieldset/calculator__fieldset.css');
+@import url('../blocks/calculator/__field/_ruble/calculator__field_ruble.css');
+@import url('../blocks/calculator/__label/calculator__label.css');
+@import url('../blocks/calculator/__button/calculator__button.css');
+@import url('../blocks/calculator/__form/calculator__form.css');
+@import url('../blocks/calculator/__total/calculator__total.css');
+@import url('../blocks/calculator/__result/calculator__result.css');
+@import url('../blocks/calculator/__reset/calculator__reset.css');
+
+@import url('../blocks/about/__image/about__image.css');
+@import url('../blocks/about/__button/about__button.css');
+
+@import url('../blocks/numbers-list/numbers-list.css');
+@import url('../blocks/numbers-list/__item/numbres-list__item.css');
+@import url('../blocks/numbers-list/__break/numbers-list__break.css');
+@import url('../blocks/numbers-list/__number/numbers-list__number.css');
+
+@import url('../blocks/connect/__list/connect__list.css');
+
+@import url('../blocks/module/module.css');
+@import url('../blocks/module/__quote/module__quote.css');
+@import url('../blocks/module/__quote/_accent/module__quote_accent.css');
+@import url('../blocks/module/__image/module__image.css');
+
+@import url('../blocks/welcome/welcome.css');
+@import url('../blocks/welcome/__image/welcome__image.css');
+@import url('../blocks/welcome/__list/welcome__list.css');
+
+@import url('../blocks/methodology/methodology.css');
+@import url('../blocks/methodology/__item/methodology__item.css');
+@import url('../blocks/methodology/__item-name/methodology__item-name.css');
+@import url('../blocks/methodology/__item-icon/methodology__item-icon.css');
+@import url('../blocks/methodology/__item-caption/methodology__item-caption.css');
+@import url('../blocks/methodology/__item-time/methodology__item-time.css');
+@import url('../blocks/methodology/__info/methodology__info.css');
+
+@import url('../blocks/telegram/telegram.css');
+@import url('../blocks/telegram/__image/telegram__image.css');
+@import url('../blocks/telegram/__list/telegram__list.css');
+
+@import url('../blocks/goal/__image/goal__image.css');
+
+@import url('../blocks/prices/prices.css');
+@import url('../blocks/prices/__zero/prices__zero.css');
+@import url('../blocks/prices/__option/prices__option.css');
+@import url('../blocks/prices/__option-heading/prices__option-heading.css');
+@import url('../blocks/prices/__option-old/prices__option-old.css');
+@import url('../blocks/prices/__option-current/prices__option-current.css');
+@import url('../blocks/prices/__option-list/prices__option-list.css');
+@import url('../blocks/prices/__option-list-item/prices__option-list-item.css');
+@import url('../blocks/prices/__option-button/prices__option-button.css');
+@import url('../blocks/prices/__option-list-item-caption/prices__option-list-item-caption.css');
+@import url('../blocks/prices/__option/_hit/prices__option_hit.css');
+
+@import url('../blocks/care/care.css');
+@import url('../blocks/care/__content/care__content.css');
+@import url('../blocks/care/__contact/care__contact.css');
+@import url('../blocks/care/__phone/care__phone.css');
+@import url('../blocks/care/__caption/care__caption.css');
+@import url('../blocks/care/__name/care__name.css');
+@import url('../blocks/care/__avatar/care__avatar.css');
+
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__logo/footer__logo.css');
+@import url('../blocks/footer/__text/footer__text.css');

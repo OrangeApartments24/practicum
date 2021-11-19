@@ -1,0 +1,30 @@
+.block {
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 75px 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1400px) {
+    .block {
+        padding: 75px 40px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .block {
+        padding: 50px 40px;
+        flex-direction: column
+    }
+    .block:nth-child(2n) {
+        background: rgba(239, 163, 14, .05);
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .block {
+        padding: 50px 20px;
+    }
+}

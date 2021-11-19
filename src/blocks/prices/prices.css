@@ -1,0 +1,13 @@
+.prices {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1080px;
+    grid-gap: 35px 25px;
+}
+
+@media screen and (max-width: 960px) {
+    .prices {
+        display: flex;
+        flex-direction: column;
+    }
+}

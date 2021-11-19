@@ -1,0 +1,19 @@
+.welcome__image {
+    max-width: 50%;
+    margin: 0;
+}
+
+@media screen and (max-width: 860px) {
+    .welcome__image {
+        max-width: 80%;
+        align-self: center;
+        position: relative;
+        bottom: -13px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .welcome__image {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,17 @@
+.block__image {
+    max-width: 40%;
+    margin: 0 5%;
+}
+
+@media screen and (max-width: 860px) {
+    .block__image {
+        max-width: 300px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .block__image {
+        max-width: 100%;
+    }
+}

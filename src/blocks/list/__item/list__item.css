@@ -1,0 +1,31 @@
+.list__item {
+    list-style: none;
+    padding: 0 0 24px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+}
+
+.list__item::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 34px;
+    left: -45px;
+    background-image: url('../../../images/list-point.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 860px) {
+    .list__item {
+        padding-left: 40px;
+    }
+    .list__item::before {
+        left: 0;
+    }
+}

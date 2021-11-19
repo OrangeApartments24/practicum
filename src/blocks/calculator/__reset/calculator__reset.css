@@ -1,0 +1,11 @@
+.calculator__reset {
+    text-decoration: none;
+    font-size: 18px;
+    color: #EFA30E;
+    padding-bottom: 5px;
+    transition: opacity .3s;
+}
+
+.calculator__reset:hover {
+    opacity: .8;
+}

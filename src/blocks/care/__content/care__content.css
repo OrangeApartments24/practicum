@@ -1,0 +1,9 @@
+.care__content {
+    max-width: 50%;
+}
+
+@media screen and (max-width: 860px) {
+    .care__content {
+        max-width: 100%;
+    }
+}

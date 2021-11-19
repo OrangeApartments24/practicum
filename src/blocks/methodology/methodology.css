@@ -1,0 +1,12 @@
+.methodology {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 45px 35px;
+}
+
+@media screen and (max-width: 630px) {
+    .methodology {
+        grid-gap: 15px;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+}

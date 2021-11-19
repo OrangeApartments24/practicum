@@ -1,0 +1,5 @@
+@media screen and (max-width: 860px) {
+    .telegram__list {
+        grid-column: 2/3;
+    }
+}

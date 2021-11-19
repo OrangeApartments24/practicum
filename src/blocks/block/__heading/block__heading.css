@@ -1,0 +1,9 @@
+.block__heading {
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 630px) {
+    .block__heading {
+        padding-bottom: 15px;
+    }
+}

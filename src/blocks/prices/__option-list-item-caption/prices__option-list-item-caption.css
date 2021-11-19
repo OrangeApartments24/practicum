@@ -1,0 +1,10 @@
+.prices__option-list-item-caption {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: block;
+    opacity: .6;
+}

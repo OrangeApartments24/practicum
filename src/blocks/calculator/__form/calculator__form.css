@@ -1,0 +1,17 @@
+.calculator__form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,.25);
+    padding: 40px 40px 20px 40px;
+    border-radius: 15px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 860px) {
+    .calculator__form {
+        padding: 15px 0 0;
+        border: none;
+    }
+}
