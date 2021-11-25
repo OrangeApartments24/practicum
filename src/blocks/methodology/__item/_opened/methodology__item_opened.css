@@ -1,0 +1,10 @@
+.methodology__item_opened {
+    /* grid-column: span 2; */
+    grid-row: span 2;
+    border-color: #EFA30E;
+    justify-content: flex-start;
+}
+
+.methodology__item_opened .methodology__item-name {
+    color: #EFA30E;
+}

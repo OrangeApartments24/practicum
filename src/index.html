@@ -4,42 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/icon" sizes="32x32" href='<%=require("./favicon.ico")%>'>
+    <link rel="icon" type="image/png" sizes="32x32" href='<%=require("./favicon-32x32.png")%>'>
+    <link rel="icon" type="image/png" sizes="16x16" href='<%=require("./favicon-16x16.png")%>'>
     <link rel="stylesheet" href="https://use.typekit.net/qeo7gnq.css">
-    <title>Orange Practicum</title>
+    <title>Orange Practicum — Школа краткосрочной аренды</title>
 </head>
 <body class="root">
     <header class="block header">
         <div class="block__content header__content">
             <img class="header__logo" src="<%=require("./images/logo.svg")%>" alt="Логотип" />
-            <h1 class="heading-1 block__heading">Приводим к&nbsp;заработку мечты
-                <span class="heading-1_accent header__accent">на&nbsp;краткосрочной аренде</span>
+            <h1 class="heading-1 block__heading">Школа краткосрочной аренды
+                <span class="heading-1_accent header__accent">—&nbsp;шаг к&nbsp;вашей мечте</span>
             </h1>
             <ul class="numbers-list">
-                <li class="numbers-list__item">Наш <span class="numbers-list__break">результат:</span></li>
-                <li class="numbers-list__item"><span class="numbers-list__number">30</span> <span class="numbers-list__break">апарт-отелей</span></li>
-                <li class="numbers-list__item">в <span class="numbers-list__number">4</span> <span class="numbers-list__break">городах</span></li>
-                <li class="numbers-list__item">за <span class="numbers-list__number">7</span> <span class="numbers-list__break">месецев</span></li>
+                <li class="numbers-list__item numbers-list__item_heading">Наш результат:</li>
+                <li class="numbers-list__item"><span class="numbers-list__number">33</span> <span class="numbers-list__break">апарт-отелей</span></li>
+                <li class="numbers-list__item"><span class="numbers-list__number">4</span> <span class="numbers-list__break">города</span></li>
+                <li class="numbers-list__item"><span class="numbers-list__number">8 месяцев</span> <span class="numbers-list__break">время запуска</span></li>
+                <li class="numbers-list__item"><span class="numbers-list__number">92 430 ₽</span> <span class="numbers-list__break">доход в день</span></li>
             </ul>
             <a href="#calculator" class="href"><button class="button header__button" type="button">Рассчитать прибыль</button></a>
         </div>
         <img class="header__image" src="<%=require("./images/hero.svg")%>" alt="Аренда квартиры — это круто" />
     </header>
     <section class="block calculator" id="calculator">
-        <h2 class="heading-2 block__heading calculator__heading">Расчитайте выручку с&nbsp;краткосрочной аренды для&nbsp;Вас</h2>
+        <h2 class="heading-2 block__heading calculator__heading">Расчитайте свой доход с краткосрочной аренды</h2>
         <form class="calculator__form" name="calculator">
             <div class="calculator__fieldset">
-                <input type="number" class="calculator__field calculator__field_ruble" type="text" name="month" placeholder="Напр., 35000" required>
-                <label class="calculator__label" for="">Средняя стоимость квартиры в месяц</label>
+                <input autocomplete="off" type="number" class="calculator__field calculator__field_ruble" type="text" name="month" placeholder="Напр., 35000" required>
+                <label class="calculator__label" for="">Средняя стоимость аренды квартиры в месяц в вашем регионе</label>
             </div>
             <div class="calculator__fieldset">
-                <input type="number" class="calculator__field" type="text" name="count" placeholder="Напр., 3" required>
-                <label class="calculator__label" for="">Кол-во квартир</label>
+                <input autocomplete="off" type="number" class="calculator__field" type="text" name="count" placeholder="Напр., 3" required>
+                <label class="calculator__label" for="">Кол-во квартир в вашей сети</label>
             </div>
             <div class="calculator__fieldset">
-                <input type="number" class="calculator__field calculator__field_ruble" type="text" name="day" placeholder="Напр., 2500" required>
-                <label class="calculator__label" for="">Средняя стоимость квартиры в день</label>
+                <input autocomplete="off" type="number" class="calculator__field calculator__field_ruble" type="text" name="day" placeholder="Напр., 2500" required>
+                <label class="calculator__label" for="">Средняя стоимость аренды квартиры в день</label>
             </div>
-            <button type="submit" class="calculator__button">Рассчитать выручку</button>
+            <button type="submit" class="calculator__button">Рассчитать доход</button>
             <div class="calculator__result">
                 <a href="#" class="calculator__reset">Посчитать ещё раз</a>
                 <h2 class="calculator__total">35 000 — выручка с&nbsp;одной квартиры в&nbsp;месяц</h2>
@@ -103,136 +107,7 @@
         </div>
         <img class="block__image welcome__image" src="<%=require("./images/welcome.svg")%>" alt="Модули — это просто" />
     </section>
-    <section class="block methodology">
-        <article class="methodology__item">
-            <div class="methodology__info">
-                <span class="methodology__item-caption">модуль 1</span>
-                <span class="methodology__item-time">2 часа</span>
-                <img src="<%=require("./images/icons/user.svg")%>" alt="Пользователь" class="methodology__item-icon">
-            </div>
-            <h3 class="methodology__item-name">Знакомство</h3>
-        </article>
-        <article class="methodology__item">
-            <div class="methodology__info">
-                <span class="methodology__item-caption">модуль 2</span>
-                <span class="methodology__item-time">2 часа</span>
-                <img src="<%=require("./images/icons/money.svg")%>" alt="Пользователь" class="methodology__item-icon">
-            </div>
-            <h3 class="methodology__item-name">Постановка целей</h3>
-        </article>
-        <article class="methodology__item">
-            <div class="methodology__info">
-                <span class="methodology__item-caption">модуль 3</span>
-                <span class="methodology__item-time">2 часа</span>
-                <img src="<%=require("./images/icons/money.svg")%>" alt="Пользователь" class="methodology__item-icon">
-            </div>
-            <h3 class="methodology__item-name">Денежное мышление</h3>
-        </article>
-        <article class="methodology__item">
-            <div class="methodology__info">
-                <span class="methodology__item-caption">модуль 4</span>
-                <span class="methodology__item-time">2 часа</span>
-                <img src="<%=require("./images/icons/stat.svg")%>" alt="Пользователь" class="methodology__item-icon">
-            </div>
-            <h3 class="methodology__item-name">Налоговый режим для&nbsp;бизнеса</h3>
-        </article>
-        <article class="methodology__item">
-            <div class="methodology__info">
-                <span class="methodology__item-caption">модуль 5</span>
-                <span class="methodology__item-time">2 часа</span>
-                <img src="<%=require("./images/icons/stat.svg")%>" alt="Пользователь" class="methodology__item-icon">
-            </div>
-            <h3 class="methodology__item-name">Юридическая основа бизнеса</h3>
-        </article>
-        <article class="methodology__item">
-            <div class="methodology__info">
-                <span class="methodology__item-caption">модуль 6</span>
-                <span class="methodology__item-time">2 часа</span>
-                <img src="<%=require("./images/icons/filter.svg")%>" alt="Пользователь" class="methodology__item-icon">
-            </div>
-            <h3 class="methodology__item-name">Расчет доходности и&nbsp;прибыли</h3>
-        </article>
-        <article class="methodology__item">
-            <div class="methodology__info">
-                <span class="methodology__item-caption">модуль 7</span>
-                <span class="methodology__item-time">2 часа</span>
-                <img src="<%=require("./images/icons/location.svg")%>" alt="Пользователь" class="methodology__item-icon">
-            </div>
-            <h3 class="methodology__item-name">Анализ рынка. Зоны притяжения</h3>
-        </article>
-        <article class="methodology__item">
-            <div class="methodology__info">
-                <span class="methodology__item-caption">модуль 8</span>
-                <span class="methodology__item-time">2 часа</span>
-                <img src="<%=require("./images/icons/location.svg")%>" alt="Пользователь" class="methodology__item-icon">
-            </div>
-            <h3 class="methodology__item-name">Конкуренты-партнеры</h3>
-        </article>
-        <article class="methodology__item">
-            <div class="methodology__info">
-                <span class="methodology__item-caption">модуль 9</span>
-                <span class="methodology__item-time">2 часа</span>
-                <img src="<%=require("./images/icons/computer.svg")%>" alt="Пользователь" class="methodology__item-icon">
-            </div>
-            <h3 class="methodology__item-name">Тестовое объявление</h3>
-        </article>
-        <article class="methodology__item">
-            <div class="methodology__info">
-                <span class="methodology__item-caption">модуль 10</span>
-                <span class="methodology__item-time">2 часа</span>
-                <img src="<%=require("./images/icons/gift.svg")%>" alt="Пользователь" class="methodology__item-icon">
-            </div>
-            <h3 class="methodology__item-name">Бонусный модуль</h3>
-        </article>
-        <article class="methodology__item">
-            <div class="methodology__info">
-                <span class="methodology__item-caption">модуль 11</span>
-                <span class="methodology__item-time">2 часа</span>
-                <img src="<%=require("./images/icons/love.svg")%>" alt="Пользователь" class="methodology__item-icon">
-            </div>
-            <h3 class="methodology__item-name">Работа с&nbsp;собственниками</h3>
-        </article>
-        <article class="methodology__item">
-            <div class="methodology__info">
-                <span class="methodology__item-caption">модуль 12</span>
-                <span class="methodology__item-time">2 часа</span>
-                <img src="<%=require("./images/icons/lamp.svg")%>" alt="Пользователь" class="methodology__item-icon">
-            </div>
-            <h3 class="methodology__item-name">Обустройство квартиры</h3>
-        </article>
-        <article class="methodology__item">
-            <div class="methodology__info">
-                <span class="methodology__item-caption">модуль 13</span>
-                <span class="methodology__item-time">2 часа</span>
-                <img src="<%=require("./images/icons/in.svg")%>" alt="Пользователь" class="methodology__item-icon">
-            </div>
-            <h3 class="methodology__item-name">Сдача квартиры. Заселение.</h3>
-        </article>
-        <article class="methodology__item">
-            <div class="methodology__info">
-                <span class="methodology__item-caption">модуль 14</span>
-                <span class="methodology__item-time">2 часа</span>
-                <img src="<%=require("./images/icons/out.svg")%>" alt="Пользователь" class="methodology__item-icon">
-            </div>
-            <h3 class="methodology__item-name">Выселение, клининг</h3>
-        </article>
-        <article class="methodology__item">
-            <div class="methodology__info">
-                <span class="methodology__item-caption">модуль 15</span>
-                <span class="methodology__item-time">2 часа</span>
-                <img src="<%=require("./images/icons/gift.svg")%>" alt="Пользователь" class="methodology__item-icon">
-            </div>
-            <h3 class="methodology__item-name">Бонусный модуль</h3>
-        </article>
-        <article class="methodology__item">
-            <div class="methodology__info">
-                <span class="methodology__item-caption">модуль 16</span>
-                <span class="methodology__item-time">2 часа</span>
-                <img src="<%=require("./images/icons/gift.svg")%>" alt="Пользователь" class="methodology__item-icon">
-            </div>
-            <h3 class="methodology__item-name">Подарки для&nbsp;студентов</h3>
-        </article>
-    </section>
+    <section class="block methodology"></section>
     <section class="block goal">
         <img class="block__image goal__image" src="<%=require("./images/goal.svg")%>" alt="Модули — это просто" />
         <div class="block__content">
@@ -273,7 +148,6 @@
                 <li class="prices__option-list-item">Чат нетворкинга
                     <span class="prices__option-list-item-caption">(от 1&nbsp;квартиры)</span></li>
             </ul>
-            <button type="button" class="prices__option-button">Купить со&nbsp;скидкой</button>
         </div>
         <div class="prices__option prices__option_hit">
             <h3 class="prices__option-heading">Основной</h3>
@@ -291,7 +165,6 @@
                 <li class="prices__option-list-item">Мастер-класс по общению с&nbsp;гостями</li>
                 <li class="prices__option-list-item">2 прямых эфира с&nbsp;основателем сети в&nbsp;формате «вопрос-ответ»</li>
             </ul>
-            <button type="button" class="prices__option-button">Купить со&nbsp;скидкой</button>
         </div>
         <div class="prices__option">
             <h3 class="prices__option-heading">VIP</h3>
@@ -315,8 +188,7 @@
                 <li class="prices__option-list-item">Личный менеджер</li>
                 <li class="prices__option-list-item">Личная встреча с основателем сети Денисом Соловьёвым </li>
             </ul>
-            <button type="button" class="prices__option-button">Купить со&nbsp;скидкой</button>
-            <!-- ПРОМОКОД -->
+            
         </div>
     </section>
     <section class="block care">
@@ -338,5 +210,38 @@
             <p class="paragraph footer__text">Все права защищены, 2021 год</p>
         </div>
     </footer>
+    <div class="countdown">
+        <div class="countdown__content">
+            <span class="countdown__caption">до старта курса осталось</span>
+            <h2 class="countdown__heading">1 день 5 часов 47 минут 10 секунд</h2>
+        </div>
+    </div>
+    <template id="lessonTemplate">
+        <article class="methodology__item">
+            <div class="methodology__info">
+                <span class="methodology__item-caption">модуль 1</span>
+                <span class="methodology__item-time">2 часа</span>
+                <img src="<%=require("./images/icons/user.svg")%>" alt="Пользователь" class="methodology__item-icon">
+            </div>
+            <h3 class="methodology__item-name">Знакомство</h3>
+            <p class="paragraph methodology__item-description">Работа с собственником — ключевой урок курса. Благодоря усмешно заключенной сделке с собственником, и будет рости Ваш бизнес.</p>
+            <button type="button" class="methodology__item-button">Купить за 3000₽</button>
+            <form action="#" class="methodology__form" name="buyLessonForm">
+                <input autofocus="autofocus" type="number" class="methodology__form-input" type="number" name="phone" maxlength="14" placeholder="Ваш номер телефона" required>
+                <button type="submit" class="methodology__form-submit"></button>
+            </form>
+        </article>
+    </template>
+    <template id="priceOptionTemplate">
+        <div class="prices__option-payment">
+            <button type="button" class="prices__option-button">Купить со&nbsp;скидкой
+                <span class="prices__option-expired"></span>
+            </button>
+            <form action="#" class="prices__form" name="buyCourseForm">
+                <input autofocus="autofocus" type="number" class="prices__form-input" type="number" name="phone" maxlength="14" placeholder="Ваш номер телефона" required>
+                <button type="submit" class="prices__form-submit"></button>
+            </form>
+        </div>
+    </template>
 </body>
 </html>

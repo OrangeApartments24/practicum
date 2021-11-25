@@ -1,22 +1,22 @@
 .header {
-    padding: 50px 0 75px 80px;
+    padding: 35px 0 75px 80px;
     max-width: 1440px;
 }
 
 @media screen and (max-width: 1400px) {
     .header {
-        padding: 50px 0 75px 40px;
+        padding: 50px 0 0px 40px;
     }
 }
 
 @media screen and (max-width: 860px) {
     .header {
-        padding: 50px 40px 75px 40px;
+        padding: 50px 40px 0px 40px;
     }
 }
 
 @media screen and (max-width: 630px) {
     .header {
-        padding: 30px 20px 75px 20px;
+        padding: 30px 20px 0px 20px;
     }
 }

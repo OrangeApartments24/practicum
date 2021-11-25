@@ -1,0 +1,16 @@
+.prices__form-submit {
+    background-image: url('../../../images/icons/submit.svg');
+    /* background-image: url('../../../images/icons/loading.svg'); */
+    background-size: contain;
+    background-position: center;
+    border: none;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 23px;
+    right: 10px;
+    cursor: pointer;
+}

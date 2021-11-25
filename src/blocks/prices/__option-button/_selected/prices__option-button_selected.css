@@ -1,0 +1,4 @@
+.prices__option-button_selected {
+    background: #FDF6E7;
+    transform: scale(1.05);
+}

@@ -1,0 +1,6 @@
+.numbers-list__item_heading {
+    grid-column: span 2;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: 300;
+}

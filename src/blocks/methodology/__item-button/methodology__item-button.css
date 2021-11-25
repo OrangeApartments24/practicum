@@ -1,0 +1,24 @@
+.methodology__item-button {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: #EFA30E;
+    padding: 7px 20px 9px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform .3s;
+    width: auto;
+    text-align: center;
+    align-self: flex-start;
+    transition: opacity .3s;
+    display: none;
+}
+
+.methodology__item-button:hover {
+    opacity: .9;
+}

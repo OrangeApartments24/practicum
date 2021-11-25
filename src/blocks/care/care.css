@@ -6,6 +6,19 @@
     margin-top: 75px;
 }
 
+@media screen and (max-width: 1400px) {
+    .care {
+        margin: 40px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .care {
+        margin: 0;
+        padding: 60px 40px 20px; 
+    }
+}
+
 @media screen and (max-width: 860px) {
     .care {
         padding: 60px 40px 20px; 
@@ -19,6 +32,6 @@
 
 @media screen and (max-width: 630px) {
     .care {
-        padding: 60px 40px;
+        padding: 60px 25px;
     }
 }

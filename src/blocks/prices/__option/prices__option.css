@@ -18,3 +18,9 @@
         margin-bottom: 15px;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .prices__option {
+        padding: 40px 20px 0px;
+    }
+}

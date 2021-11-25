@@ -46,6 +46,7 @@
 @import url('../blocks/numbers-list/__item/numbres-list__item.css');
 @import url('../blocks/numbers-list/__break/numbers-list__break.css');
 @import url('../blocks/numbers-list/__number/numbers-list__number.css');
+@import url('../blocks/numbers-list/__item/_heading/numbers-list__item_heading.css');
 
 @import url('../blocks/connect/__list/connect__list.css');
 
@@ -60,11 +61,17 @@
 
 @import url('../blocks/methodology/methodology.css');
 @import url('../blocks/methodology/__item/methodology__item.css');
+@import url('../blocks/methodology/__item/_opened/methodology__item_opened.css');
 @import url('../blocks/methodology/__item-name/methodology__item-name.css');
 @import url('../blocks/methodology/__item-icon/methodology__item-icon.css');
 @import url('../blocks/methodology/__item-caption/methodology__item-caption.css');
 @import url('../blocks/methodology/__item-time/methodology__item-time.css');
 @import url('../blocks/methodology/__info/methodology__info.css');
+@import url('../blocks/methodology/__item-button/methodology__item-button.css');
+@import url('../blocks/methodology/__item-description/methodology__item-description.css');
+@import url('../blocks/methodology/__form/methodology__form.css');
+@import url('../blocks/methodology/__form-input/methodology__form-input.css');
+@import url('../blocks/methodology/__form-submit/methodology__form-submit.css');
 
 @import url('../blocks/telegram/telegram.css');
 @import url('../blocks/telegram/__image/telegram__image.css');
@@ -81,8 +88,14 @@
 @import url('../blocks/prices/__option-list/prices__option-list.css');
 @import url('../blocks/prices/__option-list-item/prices__option-list-item.css');
 @import url('../blocks/prices/__option-button/prices__option-button.css');
+@import url('../blocks/prices/__option-button/_selected/prices__option-button_selected.css');
 @import url('../blocks/prices/__option-list-item-caption/prices__option-list-item-caption.css');
 @import url('../blocks/prices/__option/_hit/prices__option_hit.css');
+@import url('../blocks/prices/__option-expired/prices__option-expired.css');
+@import url('../blocks/prices/__form/prices__form.css');
+@import url('../blocks/prices/__form-input/prices__form-input.css');
+@import url('../blocks/prices/__form-submit/prices__form-submit.css');
+@import url('../blocks/prices/__option-payment/prices__option-payment.css');
 
 @import url('../blocks/care/care.css');
 @import url('../blocks/care/__content/care__content.css');
@@ -95,3 +108,9 @@
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__logo/footer__logo.css');
 @import url('../blocks/footer/__text/footer__text.css');
+
+@import url('../blocks/countdown/countdown.css');
+@import url('../blocks/countdown/__content/countdown__content.css');
+@import url('../blocks/countdown/__caption/countdown__caption.css');
+@import url('../blocks/countdown/__heading/countdown__heading.css');
+@import url('../blocks/countdown/__heading/_accent/countdown__heading_accent.css');

@@ -4,3 +4,15 @@
     -moz-font-smooth: grayscale;
     overflow-x: hidden;
 }
+
+@media screen and (max-width: 640px) {
+    .root {
+        padding-top: 75px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .root {
+        padding-top: 100px;
+    }
+}

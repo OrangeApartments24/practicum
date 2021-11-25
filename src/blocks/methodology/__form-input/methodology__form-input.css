@@ -1,0 +1,23 @@
+.methodology__form-input {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-weight: 300;
+    background: #FDF6E7;
+    padding: 15px 40px 15px 15px;
+    margin-top: 10px;
+    border-radius: 15px;
+    min-width: 100%;
+}
+
+.methodology__form-input::-webkit-outer-spin-button,
+.methodology__form-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.methodology__form-input[type=number] {
+  -moz-appearance: textfield;
+}

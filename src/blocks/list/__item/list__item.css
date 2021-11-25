@@ -8,6 +8,7 @@
     letter-spacing: 0em;
     text-align: left;
     position: relative;
+    padding-left: 40px;
 }
 
 .list__item::before {
@@ -15,17 +16,9 @@
     position: absolute;
     width: 30px;
     height: 34px;
-    left: -45px;
+    top: 3px;
+    left: 0;
     background-image: url('../../../images/list-point.svg');
     background-size: contain;
     background-repeat: no-repeat;
-}
-
-@media screen and (max-width: 860px) {
-    .list__item {
-        padding-left: 40px;
-    }
-    .list__item::before {
-        left: 0;
-    }
 }

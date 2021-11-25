@@ -10,7 +10,7 @@
     margin: 0;
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 1024px) {
     .care__phone {
         font-size: 30px;
         line-height: 35px;

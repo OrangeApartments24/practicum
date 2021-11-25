@@ -1,3 +1,9 @@
 .header__button {
-    margin-top: 40px;
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 860px) {
+    .header__button {
+        margin: 30px 0;
+    }
 }

@@ -1,0 +1,22 @@
+.countdown {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 860px) {
+    .countdown {
+        justify-content: flex-end;
+        right: 20px;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .countdown {
+        top: 15px;
+    }
+}

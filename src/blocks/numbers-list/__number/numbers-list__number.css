@@ -1,6 +1,12 @@
 .numbers-list__number {
-    font-size: 50px;
+    font-size: 40px;
     line-height: 30px;
     color: #EFA30E;
     font-weight: 400;
+}
+
+@media screen and (max-width: 420px) {
+    .numbers-list__number {
+        font-size: 30px;
+    }
 }
